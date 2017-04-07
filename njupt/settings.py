@@ -14,6 +14,13 @@ BOT_NAME = 'njupt'
 SPIDER_MODULES = ['njupt.spiders']
 NEWSPIDER_MODULE = 'njupt.spiders'
 
+# start MySQL database configure setting
+MYSQL_HOST = 'localhost'
+MYSQL_DBNAME = 'lirui'
+MYSQL_USER = 'zhanglirui'
+MYSQL_PASSWD = 'zlr1998'
+# end of MySQL database configure setting
+
 ITEM_PIPELINES = {
     'njupt.pipelines.NjuptPipeline':1,
 }
